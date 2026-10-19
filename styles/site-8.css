@@ -59,3 +59,6 @@
   .floating-cta{left:12px;right:12px;bottom:max(12px,env(safe-area-inset-bottom));width:auto;height:54px;justify-content:center;border-radius:3px;font-size:11px}
   body{padding-bottom:68px}
 }
+
+/* Keep the hero action text-only, including on mobile emoji fonts. */
+.hero-cta.wa-cta::after{content:none;display:none}
