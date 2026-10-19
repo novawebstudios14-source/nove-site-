@@ -241,7 +241,7 @@
       const uso = document.getElementById('uso')?.value.trim() || 'não informado';
       const cidade = document.getElementById('cidade').value.trim() || 'não informada';
       const medida = document.getElementById('medida').value.trim() || 'não informada';
-      const message = `Olá! 👋 Vim pelo site da *NOVE* e gostaria de solicitar uma análise para o meu espaço.\n\n*BRIEFING DO PROJETO*\n• Tipo de espaço: ${tipo}\n• Uso do espaço: ${uso}\n• Cidade: ${cidade}\n• Medida aproximada: ${medida}\n\nPodem me orientar sobre a solução mais indicada e os próximos passos?`;
+      const message = `Olá! Vim pelo site da *NOVE* e gostaria de solicitar uma análise para o meu espaço.\n\n*BRIEFING DO PROJETO*\n• Tipo de espaço: ${tipo}\n• Uso do espaço: ${uso}\n• Cidade: ${cidade}\n• Medida aproximada: ${medida}\n\nPodem me orientar sobre a solução mais indicada e os próximos passos?`;
 
       window.open(whatsappUrl(message), '_blank', 'noopener');
       status.textContent = 'Abrimos o WhatsApp com seu briefing organizado e pronto para enviar.';
